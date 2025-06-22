@@ -24,3 +24,11 @@ ii. >git config --global user.email "rjmuthu35@gmail.com"
 6. git push origin main -----> to push the file to the main repository.
 7. git pull origin main -------> to pull the current changes if any happened in the repository.
 
+//////////////////////////----------------------------///////////////////////////////
+Creating a new folder from the Local and pushing it into the repository.
+8. git add . ------------> for getting up all the files from the created folder in the local ---- (and then needs to be committed).
+9. git remote add origin (<Link>) -----------> for adding up all the folders into the repositiory.
+10. git branch --------------> to knows about the name of the branch.
+11. git branch -m (<branch name>) ----------> to chage the name of the branch of the repository.
+12. 
+
