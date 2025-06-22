@@ -28,6 +28,6 @@ ii. >git config --global user.email "rjmuthu35@gmail.com"
 Creating a new folder from the Local and pushing it into the repository.
 8. git add . ------------> for getting up all the files from the created folder in the local ---- (and then needs to be committed).
 9. git remote add origin (<Link>) -----------> for adding up all the folders into the repositiory.
-10. git branch --------------> to knows about the name of the branch.
+10. git branch -a -------------> to knows about the name of the branch.
 11. git branch -m (<branch name>) ----------> to chage the name of the branch of the repository.
 12. git checkout (<branch name>) -----------> to switch to anohter inbuild branch.
