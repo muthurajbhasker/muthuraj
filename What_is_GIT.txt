@@ -1,0 +1,24 @@
+* GIT is Version Control System.
+* GIT helps us to track of code changes.
+* GIT is used to collaborate with code.
+
+Git Hub
+
+GIT HUB is a web based GIT repository hosting service.
+GIT is like a fruits. and the GIT hub is the mixture to make a juice.
+
+GIT Hub Alternatives:
+	* GitBucket.
+	* BitBucket.
+
+////////////*********////////////////
+
+git Commands: 
+
+1. Git Clone---> For cloning the files from the Git web repository to Local folder
+2. Cd <file name> ------> for getting into the file that needs to be access
+4. git add ----> to adding the files in the folder(Git), will be in waiting area(will not reflect in repository, until "commit")
+5. git commit -m "<commit message>" ----> to the save the file that has been added in the local(not in the repository)
+6. git push origin main -----> to push the file to the main repository.
+7. git pull origin main -------> to pull the current changes if any happened in the repository.
+
