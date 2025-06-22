@@ -14,6 +14,8 @@ GIT Hub Alternatives:
 ////////////*********////////////////
 
 git Commands: 
+i. git config --global user.name "muthurajbhasker"
+ii. >git config --global user.email "rjmuthu35@gmail.com"
 
 1. Git Clone---> For cloning the files from the Git web repository to Local folder
 2. Cd <file name> ------> for getting into the file that needs to be access
