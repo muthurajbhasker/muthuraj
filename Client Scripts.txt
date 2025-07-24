@@ -1,0 +1,13 @@
+// Setting Read only 
+ZDK.Page.getSubform('MCA_detail').getField("Address").setReadOnly(true);
+
+//setting read only on a subform row for a particular cell 
+ZDK.Page.getSubform('Primary_GST_Data').getRow(i).getCell("Reason_for_Selecting_Primary_G").setReadOnly(true);
+
+// Search by criteria using Client Script
+Pincode_info = ZDK.Apps.CRM.Branch_Master.searchByCriteria("((Name:equals:"+Pincode_rec.getValue().name+"))");
+
+
+//for restricting user to add row.
+ZDK.Page.getSubform('Applicant_Docs').deleteRow(index);
+ZDK.Client.showMessage('Cannot add row(s)', { type: 'error' });
